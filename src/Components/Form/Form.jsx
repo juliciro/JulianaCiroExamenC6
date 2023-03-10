@@ -3,10 +3,6 @@ import { useState } from "react";
 import "./Form.css";
 import { Card } from "./Card/Card";
 
-//validar que email contenga un arroba
-//validar que el passwor por lo menos  4 caracteres
-
-
 
 export const Form = () => {
   const [user, setUser] = useState({
